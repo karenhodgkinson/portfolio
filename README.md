@@ -22,25 +22,27 @@ Some details & things about the website to consider:
 ### For single page websites
 
 - The whole page should be complete—except only 1 or 2 portfolio piece examples need to be coded, because they can be copy-pasted. Unless they’re all uniquely laid out…
+- Have all the sections: masthead, pieces, about, contact, etc.
 
 ### For multi-page websites
 
 - The homepage should be complete.
 - An example of a portfolio piece page should be complete.
-- And any other unique pages (about, contact, etc.)
+- And any other unique pages: about, contact, etc.
 
 ---
 
 ## Marking rubric
 
-**Graded with letters.**
+Below is the rubric of expectations for this project. **You will be assigned a letter grade based on your standing within the rubric.**
 
-| | 0 | 1 | 2 | 3 | 4 | 5 |
-| --- | --- | --- | --- | --- | --- | --- |
-Responsiveness | Not responsive | Semi-responsive | Works on some screens | Works okay on large screens | Responsive but with lots of awkwardness | Looks great on all screen sizes |
-
-Text content
-Code quality
+| | 0 | 1 | 2 | 3 |
+| --- | --- | --- | --- | --- |
+| **Pages & sections** | Barely started | Missing lots of sections/pages | Has most of the sections/pages, some missing | All sections/pages exist and are well done |
+| **Personality** | Bland, boring, just another graphic designer | Fairly generic but may be better with visual design | Quality layouts and unique, personable content | Unique and recognizable as you, with engaging, personable content |
+| **Text content** | Fake content only | Some real content, some fake | All real content but with lots of errors | Real content, well written, no grammar or spelling errors |
+| **Responsiveness** | Not responsive | Works on some screens | Responsive but with lots of awkwardness | Looks great on all screen sizes |
+| **Code quality** | Barely started | Indentation is barely existent, lots of validation errors, very poor semantics | Decent indentation, just a couple validation errors, decent semantics | Well indented, fully valid, good semantics |
 
 ---
 
