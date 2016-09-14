@@ -36,7 +36,7 @@ Some details & things about the website to consider:
 
 Below is the rubric of expectations for this project. **You will be assigned a letter grade based on your standing within the rubric.**
 
-| | 0 | 1 | 2 | 3 |
+| | 0 points | 1 points | 2 points | 3 points |
 | --- | --- | --- | --- | --- |
 | **Pages & sections** | Barely started | Missing lots of sections/pages | Has most of the sections/pages, some missing | All sections/pages exist and are well done |
 | **Personality** | Bland, boring, just another graphic designer | Fairly generic but may be better with visual design | Quality layouts and unique, personable content | Unique and recognizable as you, with engaging, personable content |
