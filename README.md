@@ -1,8 +1,8 @@
 ---
-summary: 'Code up the fully responsive first, basic version of your portfolio website.'
-time: '8 hours'
-deliverables: '1 (or more) HTML files, 1 (or more) CSS files, images'
-submit: "https://algonquin.instructure.com/courses/501960/assignments/5002559"
+summary: "Code up the fully responsive first, basic version of your portfolio website."
+time: "8 hours"
+deliverables: "1 (or more) HTML files, 1 (or more) CSS files, images"
+submit: "https://algonquin.instructure.com/courses/847182/assignments/7464397"
 ---
 
 # Interactive wireframes
