@@ -1,7 +1,7 @@
 ---
 summary: "Code up the fully responsive first, basic version of your portfolio website."
 time: "8 hours"
-deliverables: "1 (or more) HTML files, 1 (or more) CSS files, images"
+deliverables: "HTML files, CSS files, images"
 submit: "https://algonquin.instructure.com/courses/847182/assignments/7464397"
 ---
 
@@ -19,17 +19,9 @@ Some details & things about the website to consider:
 - Use grid systems, type systems & default module CSS.
 - All (all!) the text must be real—no placeholders.
 - **ABSOLUTELY NO JAVASCRIPT!!**—your site should be fully functional without it, we’ll add it in later.
-
-### For single page websites
-
-- The whole page should be complete—except only 1 or 2 portfolio piece examples need to be coded, because they can be copy-pasted. Unless they’re all uniquely laid out…
-- Have all the sections: masthead, pieces, about, contact, etc.
-
-### For multi-page websites
-
 - The homepage should be complete.
 - An example of a portfolio piece page should be complete.
-- And any other unique pages: about, contact, etc.
+- And any other unique pages: about, contact, etc. should also be complete.
 
 ---
 
