@@ -23,6 +23,12 @@ Some details & things about the website to consider:
 - An example of a portfolio piece page should be complete.
 - And any other unique pages: about, contact, etc. should also be complete.
 
+### Critiques
+
+We’ll be performing critiques to get a grade for this project. *More details below, in the “Hand-in” section.*
+
+*There will be two weeks where critiques can be performed: Week 5 or Week 6. Pick whichever week works best for you.*
+
 ---
 
 ## Marking rubric
@@ -37,7 +43,7 @@ Below is the rubric of expectations for this project. **You will get a letter gr
 | **Responsiveness** | Not responsive | Works on some screens | Responsive but with lots of awkwardness | Looks great on all screen sizes |
 | **Code quality** | Barely started | Indentation is barely existent, lots of validation errors, very poor semantics | Decent indentation, just a couple validation errors, decent semantics | Well indented, fully valid, good semantics |
 
-[**Copy & paste this code for your GitHub Issue**](https://raw.githubusercontent.com/acgd-webdev-5/interactive-wireframes/gh-pages/rubric.md)
+[**Copy & paste this code for your GitHub Issue ➔**](https://raw.githubusercontent.com/acgd-webdev-5/interactive-wireframes/gh-pages/rubric.md)
 
 ---
 
@@ -52,23 +58,44 @@ https://username.github.io/portfolio/
 
 ### Get critiques & grade yourself
 
-To receive a grade on the interactive wireframes you’ll need to get critiques from peers, write a personal performance rationale, fill out the rubric & get critiqued by the teacher.
+To receive a grade on the interactive wireframes you’ll need to:
 
-- [ ] **3 peer critiques**
-  Select 3 of your peers and get them to [critique your project ➔](/courses/shared/peer-evaluation/)
-  Also consider performing [usability tests ➔](topics/usability-testing-checklist/)
+- [ ] **Get 3 peer critiques**
 - [ ] **Fill out the rubric**
-  Using the rubric above, copy the code to a GitHub Issue, attached to your repository, and select the appropriate grade for each section. Sum the values of the rubric.
-- [ ] **Personal performance rationale**
-  As a GitHub Issue, attached to your repository, write a short-ish rationale explaining how well you did completing your interactive wireframes:
+- [ ] **Write a personal performance rationale**
+- [ ] **Get the teacher’s critique**
+- [ ] **Determine a grade**
+
+#### 3 peer critiques
+
+  Select 3 of your peers and get them to [critique your project ➔](/courses/shared/peer-evaluation/)
+
+  Also consider performing [usability tests ➔](topics/usability-testing-checklist/)
+
+#### Fill out the rubric
+
+  Using the rubric above, [copy the code](https://raw.githubusercontent.com/acgd-webdev-5/interactive-wireframes/gh-pages/rubric.md) to a GitHub Issue, attached to your repository, and select the appropriate grade for each section.
+
+  Sum the values of the rubric & put that at the bottom of the Issue.
+
+#### Personal performance rationale
+
+  As a GitHub Issue, attached to your repository, write a short-ish rationale explaining how well you did completing your project:
+
   - What did you do well?
   - What did you do poorly?
   - What could be improved?
-  - What was amazing?
+  - What problems did you run into?
+  - What complications did you overcome?
   - Does the website communicate the right message?
   - Is the website usable?
-- [ ] **Teacher critique**
+
+#### Teacher critique
+
   Meet with the teacher in class and get a critique of your project.
-- [ ] **Determine a grade**
+
+#### Determine a grade
+
   Using all the above information, assign yourself a grade that reflects everything you’ve completed.
+
   Discuss this grade with the teacher—if it’s fair & honest the teacher will assign the grade immediately.
