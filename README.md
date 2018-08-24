@@ -68,34 +68,34 @@ To receive a grade on the interactive wireframes you’ll need to:
 
 #### 3 peer critiques
 
-  Select 3 of your peers and get them to [critique your project ➔](/courses/shared/peer-evaluation/)
+Select 3 of your peers and get them to [critique your project ➔](/courses/shared/peer-evaluation/)
 
-  Also consider performing [usability tests ➔](topics/usability-testing-checklist/)
+Also consider performing [usability tests ➔](topics/usability-testing-checklist/)
 
 #### Fill out the rubric
 
-  Using the rubric above, [copy the code](https://raw.githubusercontent.com/acgd-webdev-5/interactive-wireframes/gh-pages/rubric.md) to a GitHub Issue, attached to your repository, and select the appropriate grade for each section.
+Using the rubric above, [copy the code](https://raw.githubusercontent.com/acgd-webdev-5/interactive-wireframes/gh-pages/rubric.md) to a GitHub Issue, attached to your repository, and select the appropriate grade for each section.
 
-  Sum the values of the rubric & put that at the bottom of the Issue.
+Sum the values of the rubric & put that at the bottom of the Issue.
 
 #### Personal performance rationale
 
-  As a GitHub Issue, attached to your repository, write a short-ish rationale explaining how well you did completing your project:
+As a GitHub Issue, attached to your repository, write a short-ish rationale explaining how well you did completing your project:
 
-  - What did you do well?
-  - What did you do poorly?
-  - What could be improved?
-  - What problems did you run into?
-  - What complications did you overcome?
-  - Does the website communicate the right message?
-  - Is the website usable?
+- What did you do well?
+- What did you do poorly?
+- What could be improved?
+- What problems did you run into?
+- What complications did you overcome?
+- Does the website communicate the right message?
+- Is the website usable?
 
 #### Teacher critique
 
-  Meet with the teacher in class and get a critique of your project.
+Meet with the teacher in class and get a critique of your project.
 
 #### Determine a grade
 
-  Using all the above information, assign yourself a grade that reflects everything you’ve completed.
+Using all the above information, assign yourself a grade that reflects everything you’ve completed.
 
-  Discuss this grade with the teacher—if it’s fair & honest the teacher will assign the grade immediately.
+Discuss this grade with the teacher—if it’s fair & honest the teacher will assign the grade immediately.
