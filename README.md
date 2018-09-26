@@ -17,6 +17,7 @@ Some details & things about the website to consider:
 - Include any typefaces you’re planning on using.
 - Only placeholder images are necessary, but they should be representative of what will be included (sketches, roughs, finals, etc.)
 - Use grid systems, type systems & default module CSS.
+- Consider making a pattern library.
 - All (all!) the text must be real—no placeholders.
 - **ABSOLUTELY NO JAVASCRIPT!!**—your site should be fully functional without it, we’ll add it in later.
 - The homepage should be complete.
