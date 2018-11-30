@@ -2,7 +2,6 @@
 summary: "Code up the fully responsive first, basic version of your portfolio website."
 time: "8 hours"
 deliverables: "HTML files, CSS files, images"
-submit: "https://algonquin.instructure.com/courses/847182/assignments/7464397"
 ---
 
 # Interactive wireframes
