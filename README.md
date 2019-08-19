@@ -1,14 +1,14 @@
 ---
-summary: "Code up the fully responsive first, basic version of your portfolio website."
+summary: "Code up the all the patterns necessary for your portfolio website."
 time: "8 hours"
 deliverables: "HTML files, CSS files, images"
 ---
 
-# Interactive wireframes
+# Pattern library
 
 ## Overview
 
-Code the interactive wireframes for your portfolio website. *Consider every unique component of the website.*
+Code the pattern library for your portfolio website. *Consider every unique component of the website.*
 
 Some details & things about the website to consider:
 
@@ -16,18 +16,14 @@ Some details & things about the website to consider:
 - Include any typefaces you’re planning on using.
 - Only placeholder images are necessary, but they should be representative of what will be included (sketches, roughs, finals, etc.)
 - Use grid systems, type systems & default module CSS.
-- Consider making a pattern library.
-- All (all!) the text must be real—no placeholders.
 - **ABSOLUTELY NO JAVASCRIPT!!**—your site should be fully functional without it, we’ll add it in later.
-- The homepage should be complete.
-- An example of a portfolio piece page should be complete.
-- And any other unique pages: about, contact, etc. should also be complete.
+- Create all the unique components you think you need based on the sketches of your portfolio.
+
+*Nothing is permanent—you can change these patterns as you go.*
 
 ### Critiques
 
 We’ll be performing critiques to get a grade for this project. *More details below, in the “Hand-in” section.*
-
-*There will be two weeks where critiques can be performed: Week 5 or Week 6. Pick whichever week works best for you.*
 
 ---
 
@@ -37,13 +33,15 @@ Below is the rubric of expectations for this project. **You will get a letter gr
 
 | | 0 points | 1 points | 2 points | 3 points |
 | --- | --- | --- | --- | --- |
-| **Pages & sections** | Barely started | Missing lots of sections/pages | Has most of the sections/pages, some missing | All sections/pages exist and are well done |
+| **Patterns** | Barely started | Missing lots of patterns | Has most of the patterns, some missing | All patterns exist and are well done |
 | **Personality** | Bland, boring, just another graphic designer | Fairly generic but may be better with visual design | Quality layouts and unique, personable content | Unique and recognizable as you, with engaging, personable content |
 | **Text content** | Fake content only | Some real content, some fake | All real content but with lots of errors | Real content, well written, no grammar or spelling errors |
 | **Responsiveness** | Not responsive | Works on some screens | Responsive but with lots of awkwardness | Looks great on all screen sizes |
+| **Documentation** | No documentation | Very little documentation | Mostly well documented | Amazing! Anybody could understand |
+| **Use of systems** | Everything is repeated | Some good use of Jekyll & Patternbot | Lots of good systemization & reuse | Lego! |
 | **Code quality** | Barely started | Indentation is barely existent, lots of validation errors, very poor semantics | Decent indentation, just a couple validation errors, decent semantics | Well indented, fully valid, good semantics |
 
-[**Copy & paste this code for your GitHub Issue ➔**](https://raw.githubusercontent.com/acgd-webdev-5/interactive-wireframes/gh-pages/rubric.md)
+[**Copy & paste this code for your GitHub Issue ➔**](https://raw.githubusercontent.com/acgd-webdev-5/pattern-library/gh-pages/rubric.md)
 
 ---
 
@@ -53,12 +51,12 @@ Below is the rubric of expectations for this project. **You will get a letter gr
 2. Submit the GitHub URL online
 
 ```
-https://username.github.io/portfolio/
+https://some-fun-name-thing.netlify.com
 ```
 
 ### Get critiques & grade yourself
 
-To receive a grade on the interactive wireframes you’ll need to:
+To receive a grade on the pattern library you’ll need to:
 
 - [ ] **Get 3 peer critiques**
 - [ ] **Fill out the rubric**
@@ -74,7 +72,7 @@ Also consider performing [usability tests ➔](topics/usability-testing-checklis
 
 #### Fill out the rubric
 
-Using the rubric above, [copy the code](https://raw.githubusercontent.com/acgd-webdev-5/interactive-wireframes/gh-pages/rubric.md) to a GitHub Issue, attached to your repository, and select the appropriate grade for each section.
+Using the rubric above, [copy the code](https://raw.githubusercontent.com/acgd-webdev-5/pattern-library/gh-pages/rubric.md) to a GitHub Issue, attached to your repository, and select the appropriate grade for each section.
 
 Sum the values of the rubric & put that at the bottom of the Issue.
 
