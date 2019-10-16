@@ -47,8 +47,8 @@ Below is the rubric of expectations for this project. **You will get a letter gr
 
 ## Hand in
 
-1. Upload the assignment to GitHub and make sure it works
-2. Submit the GitHub URL online
+1. Upload the assignment to GitHub and make sure it works on Netlify
+2. Make sure the Netlify URL is somewhere on the GitHub repo’s page
 
 ```
 https://some-fun-name-thing.netlify.com
