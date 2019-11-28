@@ -1,0 +1,6 @@
+permalink: pretty
+
+theme: jekyll_patternbot
+
+patternbot:
+  font_url: "https://fonts.googleapis.com/css?family=Lato:400,400i,700|Raleway:400,500,600,700&display=swap"
