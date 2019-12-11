@@ -1,0 +1,52 @@
+:root {
+  --color-primary: #7ec6c0;
+  --color-primary-light: #f7fafa;
+  --color-primary-dark: #5c5c69;
+  --color-secondary: #dbc1db;
+  --color-secondary-dark: #a5336f;
+  --color-darkest: #0d0d0b;
+  --color-accent:#c7295e;
+
+--font-primary: Lato, sans-serif;
+--font-secondary: Raleway, sans-serif;
+
+--border-radius: 20px;
+}
+
+/* @utility Apply the secondary typeface */
+.font-secondary {
+  var(--font-secondary);
+}
+
+/* @utility Apply a light background to an element */
+.section-light {
+  background-color: var(--color-primary-light);
+}
+
+/* @utility Apply a dark background to an element */
+.section-dark {
+  background-color: var(--color-primary-dark);
+}
+
+h1 {
+  font-family: var(--font-secondary);
+  text-transform: uppercase;
+  color: var(--color-secondary-dark);
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-dark);
+}
+
+a {
+  color: var(--color-primary-light);
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
+a:active {
+  color: var(--color-primary);
+}

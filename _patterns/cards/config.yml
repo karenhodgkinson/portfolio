@@ -1,0 +1,44 @@
+patterns:
+  image:
+    width: 400
+    description: |
+      The image card is used on the home page at smaller sizes in order to draw attention to the gallery.
+
+    fields:
+      - name: heading
+        type: string
+        example: "Short Statement"
+      - name: image
+        type: string
+        example: "/images/pastelpinkgreen.jpg"
+      - name: button-text
+        type: string
+        example: "View projects"
+      - name: button-url
+        type: url
+        example: "/design-projects/"
+      - name: text
+        type: string
+        example: "A couple of sentatnces that sdkfjksdjfkfjksdjf A couple of sentatnces that sdkfjksdjfkfjksdjf."
+
+  info:
+    width: 400
+    description: |
+      The info card is used on the home page at larger sizes when the background is a photo, in order to draw attention to the gallery.
+
+    fields:
+      - name: heading
+        type: string
+        example: "Short Statement"
+      - name: image
+        type: string
+        example: "/images/pastelpinkgreen.jpg"
+      - name: button-text
+        type: string
+        example: "View projects"
+      - name: button-url
+        type: url
+        example: "/design-projects/"
+      - name: text
+        type: string
+        example: "A couple of sentatnces that sdkfjksdjfkfjksdjf A couple of sentatnces that sdkfjksdjfkfjksdjf."

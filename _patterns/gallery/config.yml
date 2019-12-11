@@ -1,0 +1,19 @@
+title: "Gallery"
+description: |
+  Gallery is used on the projects page and the visual art page to display various photographs.
+
+patterns:
+  gallery:
+    fields:
+      - name: imagemain
+        type: string
+        example: "pastelpinkgreen.jpg"
+      - name: image2
+        type: string
+        example: "pastelpinkgreen.jpg"
+      - name: image3
+        type: string
+        example: "pastelpinkgreen.jpg"
+      - name: image4
+        type: string
+        example: "pastelpinkgreen.jpg"

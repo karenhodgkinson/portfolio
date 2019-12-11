@@ -1,6 +1,23 @@
 permalink: pretty
-
 theme: jekyll_patternbot
 
 patternbot:
-  font_url: "https://fonts.googleapis.com/css?family=Lato:400,400i,700|Raleway:400,500,600,700&display=swap"
+  title: "Karen Hodgkinson"
+  description: |
+    Ottawa-based Graphic Designer and Artist.
+  font_url: "https://fonts.googleapis.com/css?family=Lato:400,400i,700|Nunito:300,400,600,700|Raleway:400,500,600,700&display=swap"
+  colors:
+    background: "--color-primary-light"
+    accent: "--color-primary"
+  rationales:
+    typefaces.primary: |
+      Lato was used as the primary typeface because it is a clean and professional typeface that still has some artistic flair.
+    typefaces.secondary: |
+      Raleway was chosen as the secondary typeface to be used as an accenting typeface. Raleway complements the minimalism of Lato while bringing its own charm.
+    colors.primary: |
+      The primary colours complement the colours of my portfolio pieces, and reflect my overall aesthetic as a designer.
+    colors.secondary: |
+      The secondary colours provide some warmth and a sense of creativity, while also complementing my portfolio pieces.
+    layouts:
+      default: |
+        This is the most basic layout, to be used on all pages.
