@@ -1,0 +1,16 @@
+title: "Sections"
+description: |
+  Sections are used to group content by theme.
+
+patterns:
+  basic:
+    title: "Basic section"
+    description: |
+      The basic section is used to group content for the majority of pages.
+    fields:
+      - name: heading
+        type: string
+        example: "About"
+      - name: image
+        type: string
+        example: "watch-s5.png"

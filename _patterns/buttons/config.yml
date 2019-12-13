@@ -23,9 +23,11 @@ patterns:
       - name: text
         type: string
         example: "View Projects"
-      - name: url
-        type: url
-        example: "/design-projects/"
+      - name: data
+        type: object
+        data:
+          source: "site.portfolio-pieces[0]"
+          type: "portfolio-piece"
 
   menu-button:
     title: "Menu button"

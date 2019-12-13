@@ -1,14 +1,21 @@
 <!DOCTYPE html>
-<html lang="en-ca">
+<html lang="en-ca" dir="ltr">
 <head>
   <meta charset="utf-8">
   <title>Karen Hodgkinson</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Nunito:300,400,600,700|Raleway:400,500,600,700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+  {% pattern header/header %}
+
+    <main>
+      {{content}}
+    </main>
+
+  {% pattern footer/footer %}
 
 </body>
 </html>

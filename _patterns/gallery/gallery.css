@@ -1,3 +1,35 @@
 .photo {
   background-color: #fff;
 }
+
+
+.carousel-items > div {
+  display: none;
+}
+
+#pp1-control:checked ~ .carousel-inner #pp1,
+#pp2-control:checked ~ .carousel-inner #pp2,
+#pp3-control:checked ~ .carousel-inner #pp3,
+#pp4-control:checked ~ .carousel-inner #pp4,
+#pp5-control:checked ~ .carousel-inner #pp5,
+#pp6-control:checked ~ .carousel-inner #pp6,
+#pp7-control:checked ~ .carousel-inner #pp7,
+#pp8-control:checked ~ .carousel-inner #pp8 {
+  display: block;
+}
+
+.carousel-btn {
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+#pp1-control:checked ~ .carousel-inner [for="pp1-control"],
+#pp2-control:checked ~ .carousel-inner [for="pp2-control"],
+#pp3-control:checked ~ .carousel-inner [for="pp3-control"],
+#pp4-control:checked ~ .carousel-inner [for="pp4-control"],
+#pp5-control:checked ~ .carousel-inner [for="pp5-control"],
+#pp6-control:checked ~ .carousel-inner [for="pp6-control"],
+#pp7-control:checked ~ .carousel-inner [for="pp7-control"],
+#pp8-control:checked ~ .carousel-inner [for="pp8-control"] {
+  background-color: var(--color-primary);
+}

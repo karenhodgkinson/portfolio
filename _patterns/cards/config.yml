@@ -1,44 +1,51 @@
 patterns:
-  image:
-    width: 400
+  project-gallery:
+    title: "Project Gallery Card"
     description: |
-      The image card is used on the home page at smaller sizes in order to draw attention to the gallery.
-
+      The Project Gallery Card is used to display each portfolio piece. It includes a more detailed description of each portfolio piece, as well as a gallery of images.
     fields:
-      - name: heading
-        type: string
-        example: "Short Statement"
-      - name: image
-        type: string
-        example: "/images/pastelpinkgreen.jpg"
-      - name: button-text
-        type: string
-        example: "View projects"
-      - name: button-url
-        type: url
-        example: "/design-projects/"
-      - name: text
-        type: string
-        example: "A couple of sentatnces that sdkfjksdjfkfjksdjf A couple of sentatnces that sdkfjksdjfkfjksdjf."
+      - name: data
+        data:
+          source: "site.portfolio-pieces[0]"
+          type: portfolio-piece
 
-  info:
+  portfolio-gallery:
     width: 400
+    title: "Might not use"
     description: |
-      The info card is used on the home page at larger sizes when the background is a photo, in order to draw attention to the gallery.
-
+      The portolio gallery card is used on the gallery landing page to introduce each portfolio piece. It links to the portfolio viewer.
     fields:
-      - name: heading
-        type: string
-        example: "Short Statement"
-      - name: image
-        type: string
-        example: "/images/pastelpinkgreen.jpg"
-      - name: button-text
-        type: string
-        example: "View projects"
-      - name: button-url
-        type: url
-        example: "/design-projects/"
-      - name: text
-        type: string
-        example: "A couple of sentatnces that sdkfjksdjfkfjksdjf A couple of sentatnces that sdkfjksdjfkfjksdjf."
+      - name: data
+        data:
+          source: "site.portfolio-pieces[0]"
+          type: portfolio-piece
+
+  image-only:
+    width: 400
+    title: "Image only"
+    description: |
+    fields:
+      - name: data
+        data:
+          source: "site.portfolio-pieces[0]"
+          type: portfolio-piece
+
+  image-button:
+    width: 400
+    title: "image with button"
+    description: |
+    fields:
+      - name: data
+        data:
+          source: "site.portfolio-pieces[0]"
+          type: portfolio-piece
+
+  image-info:
+    width: 400
+    title: "image with info"
+    description: |
+    fields:
+      - name: data
+        data:
+          source: "site.portfolio-pieces[0]"
+          type: portfolio-piece

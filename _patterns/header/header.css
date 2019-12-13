@@ -20,3 +20,10 @@
   border: 2px solid var(--color-secondary);
   border-radius: 3px;
 }
+
+.current a {
+  color: var(--color-secondary-dark);
+  border-bottom-style: solid;
+  border-bottom-width: medium;
+  border-bottom-color: var(--color-secondary);
+}

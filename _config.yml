@@ -18,6 +18,17 @@ patternbot:
       The primary colours complement the colours of my portfolio pieces, and reflect my overall aesthetic as a designer.
     colors.secondary: |
       The secondary colours provide some warmth and a sense of creativity, while also complementing my portfolio pieces.
-    layouts:
-      default: |
-        This is the most basic layout, to be used on all pages.
+  layouts:
+    default: |
+      This is the most basic layout, to be used on all pages.
+    gallery-layout: |
+      This is the layout for the gallery page, only used on the gallery page.
+collections:
+  portfolio-pieces:
+    output: true
+
+defaults:
+  - scope:
+      path: _portfolio-pieces
+    values:
+      layout: default

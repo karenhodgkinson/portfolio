@@ -1,0 +1,10 @@
+<div class="card chop">
+  <div class="island-1-2">
+    <h1>{{include.data.heading}}</h1>
+    <h2>{{include.data.text}}</h2>
+  </div>
+  <div class="island-1-2">
+    {% pattern gallery/portfolio %}
+      {% pattern buttons/ghost data=portfolio-piece %}
+  </div>
+</div>

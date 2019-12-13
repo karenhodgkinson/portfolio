@@ -1,10 +1,16 @@
 ---
-name: "Title 1"
+name: "Infographic Poster"
 description: |
-  "sdasdsadsad asdasdasd asdasdad asdasdas asdasd"
-image: "/images/pastelpinkgreen.jpg"
-date: "2019"
-tools:
-  - "Adobe Illustrator"
-  - "Adobe Photoshop"
+  A graphic visual representation of a large amount of data, this poster presents a large amount of information quickly and clearly.
+non_conflict: true
+imageintro: "/images/portfolio/1intro.png"
+imagemain: "/images/portfolio/1a.jpg"
+image2: "/images/portfolio/1b.jpg"
+image3: "/images/portfolio/1c.jpg"
+image4: "/images/portfolio/1d.jpg"
+tools: "Adobe Illustrator"
+year: "2017"
+icon: "/images/icons.svg#ai-icon"
+process: "I was given a text file containing various statistics, and instructed to transform the data into an interesting poster."
+url: "/portfolio-piece1/"
 ---

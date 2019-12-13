@@ -3,7 +3,7 @@ description: |
   Banners should be used for main pages.
 
 patterns:
-  banner:
+  basic:
     title: "Basic Banner"
     description: |
       A simple decorative banner to be used when it is not ideal to direct the user to a different page. The function is decoration and continuity throughout non-gallery pages.
@@ -14,7 +14,7 @@ patterns:
         example: "Short relevant statement that grabs attention"
       - name: image
         type: string
-        example: "/images/pastelpinkgreen.jpg"
+        example: "/images/banner.jpg"
 
   hero-image:
     title: "Hero Image Banner"
@@ -27,7 +27,7 @@ patterns:
         example: "Short relevant statement that grabs attention!"
       - name: image
         type: string
-        example: "/images/pastelpinkgreen.jpg"
+        example: "/images/portfolio/watch-s5.png"
       - name: text
         type: string
         example: "longer relevant statement that reinforces call-to-action"
@@ -36,4 +36,4 @@ patterns:
         example: "View Projects"
       - name: button-url
         type: url
-        example: "/design-projects/"
+        example: "/gallery-gd/"

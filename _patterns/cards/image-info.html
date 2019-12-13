@@ -1,0 +1,19 @@
+<div class="card chop">
+  <div class="grid island-1-2">
+    <div class="unit xs-1 s-1 m-1 l-1">
+      <h1>{{include.data.name}}</h1>
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2">
+      <img class="img-flex" src="{{include.data.image}}"
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-2">
+          <i class="icon i-1">
+            <svg><use xlink:href="{{include.data.icon}}"></use></svg>
+          </i>
+  <span class="icon-label">{{include.data.tools}}</span>
+      </div>
+    </div>
+    <div class="unit xs-1 s-1 m-1 l-1 island-1-2">
+      {% pattern buttons/ghost text="View All Projects" url="/gallery-gd/" %}
+    </div>
+  </div>

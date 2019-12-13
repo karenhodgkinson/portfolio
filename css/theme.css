@@ -50,3 +50,8 @@ a:hover {
 a:active {
   color: var(--color-primary);
 }
+
+label {
+  font-family: var(--font-secondary);
+  color: var(--color-primary-dark);
+}

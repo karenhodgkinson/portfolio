@@ -1,13 +1,11 @@
 <div class="relative wrapper">
   <div class="embed embed-16by9 hero-image">
-    <img class="embed-item" src="images/pastelpinkgreen.jpg" alt="">
+    <img class="embed-item" src="{{include.image}}" alt="">
   </div>
   <div class="hero-text island-1-2">
-    <div class="pin-lt island"
-      <h1 class="push-1-2 giga island">{{include.heading}}</h1>
-      <p class="push-1-2 island">{{include.text}}</p>
+    <div class="pin-lc island"
     <div class="push-left">
-      {% pattern buttons/ghost %}
+      {% pattern buttons/basic url=include.button_url text=include.button_text %}
     </div>
     </div>
   </div>

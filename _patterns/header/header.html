@@ -9,20 +9,14 @@
 
       <nav class="nav" role="navigation" id="nav">
         <ul class="list-group-inline">
-          <li class="island-1-8">
-            <a class="island-1-8 gutter-1-2" href="/design-projects/">design projects</a>
+          <li class="island-1-8 {% if page.highlight_nav == 'gallery-gd' %}current{% endif %}">
+            <a class="island-1-8 gutter-1-2" href="/gallery-gd/">design projects</a>
           </li>
-          <li class="island-1-8">
+          <li class="island-1-8 {% if page.highlight_nav == 'about' %}current{% endif %}">
             <a class="island-1-8 gutter-1-2" href="/about/">about</a>
           </li>
-          <li class="island-1-8">
-            <a class="island-1-8 gutter-1-2" href="/resume/">resume</a>
-          </li>
-          <li class="island-1-8">
+          <li class="island-1-8 {% if page.highlight_nav == 'contact' %}current{% endif %}">
             <a class="island-1-8 gutter-1-2" href="/contact/">contact</a>
-          </li>
-          <li class="island-1-8">
-            <a class="isalnd-1-8 gutter-1-2" href="/studio-art/">studio art</a>
           </li>
         </ul>
       </nav>

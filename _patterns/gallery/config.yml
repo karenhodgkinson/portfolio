@@ -1,19 +1,26 @@
 title: "Gallery"
 description: |
-  Gallery is used on the projects page and the visual art page to display various photographs.
+  These are photo arrays that are only used within the gallery to display images.
 
 patterns:
-  gallery:
+  project:
+    title: "Project Gallery"
+    description: |
+      This gallery is used to display multiple images for the same project piece. To be used inside of the project gallery card.
     fields:
-      - name: imagemain
-        type: string
-        example: "pastelpinkgreen.jpg"
-      - name: image2
-        type: string
-        example: "pastelpinkgreen.jpg"
-      - name: image3
-        type: string
-        example: "pastelpinkgreen.jpg"
-      - name: image4
-        type: string
-        example: "pastelpinkgreen.jpg"
+      - name: data
+        type: object
+        data:
+          source: "site.portfolio-pieces[0]"
+          type: portfolio-piece
+
+  portfolio:
+    title: "Portfolio Gallery"
+    description: |
+      This gallery is used to show all of the portfolio projects. To be used inside of the portfolio gallery card
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.portfolio-pieces[0]"
+          type: portfolio-piece
