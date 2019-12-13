@@ -1,11 +1,15 @@
 ---
-name: "Infographic"
-description: |
-  An infographic poster that displays a large amount of information in an interesting way.
-non_conflict: true
-imagemain: "/images/portfolio-files/1.png"
-image2: "/images/portfolio-files/2.png"
-tools: "Adobe Illustrator"
+name: "Annual Report"
+description: "placeholder"
+imageintro: "/images/portfolio-files/3b.png"
+imagemain: "/images/portfolio/3b.png"
+image2: "/images/portfolio/3b.png"
+image3: "/images/portfolio/3b.png"
+image4: "/images/portfolio/3b.png"
+tools: "Adobe Illustrator, Adobe Photoshop, Adobe Aftereffects"
 year: "2017"
 icon: "/images/icons.svg#ai-icon"
+process: "I was given a text file containing various statistics, and instructed to transform the data into an interesting poster."
+type: "design & layout, illustration"
+url: "/portfolio-piece1/"
 ---

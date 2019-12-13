@@ -4,8 +4,20 @@ highlight_nav: gallery-gd
 ---
 {% pattern banners/basic %}
 
-{% for portfolio-piece in site.portfolio-pieces limit:8 %}
-  <div class="unit xs-0 m-1-4">
-    {% pattern cards/portfolio-gallery data=portfolio-piece %}
+<div class="grid wrapper">
+
+  {% for portfolio-piece in site.portfolio-pieces limit:3 %}
+  <div class="unit xs-0 m-1">
+
+    {% pattern gallery/project data=portfolio-piece %}
   </div>
-{% endfor %}
+  {% endfor %}
+
+  {% for portfolio-piece in site.portfolio-pieces limit:2 %}
+  <div class="unit xs-1 m-0">
+    {% pattern cards/project-gallery data=portfolio-piece %}
+  </div>
+  {% endfor %}
+
+
+</div>

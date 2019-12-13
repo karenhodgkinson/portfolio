@@ -1,11 +1,15 @@
 ---
-name: "Infographic"
-description: |
-  An infographic poster that displays a large amount of information in an interesting way.
-non_conflict: true
-imagemain: "/images/portfolio-files/1.png"
-image2: "/images/portfolio-files/2.png"
-tools: "Adobe Illustrator"
-year: "2017"
+name: "3D Rendered Watch"
+description: "An infographic poster that displays a large amount of information in an interesting way."
+imageintro: "/images/portfolio-files/watch-s5.png"
+imagemain: "/images/portfolio/watch-s5.png"
+image2: "/images/portfolio/watch-s5.png"
+image3: "/images/portfolio/watch-s5.png"
+image4: "/images/portfolio/watch-s5.png"
+tools: "Adobe Illustrator, Cinema4D"
+year: "2019"
 icon: "/images/icons.svg#ai-icon"
+process: "I was given a text file containing various statistics, and instructed to transform the data into an interesting poster."
+type: "design & layout, illustration, photography, 3D & AR"
+url: "/portfolio-piece1/"
 ---
