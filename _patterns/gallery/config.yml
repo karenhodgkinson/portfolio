@@ -8,19 +8,19 @@ patterns:
     description: |
       This gallery is used to display multiple images for the same project piece. To be used inside of the project gallery card.
     fields:
-      - name: data
-        type: object
+      - name: "data"
+        type: "object"
         data:
           source: "site.portfolio-pieces[0]"
-          type: portfolio-piece
+          type: "portfolio-piece"
 
   portfolio:
     title: "Portfolio Gallery"
     description: |
       This gallery is used to show all of the portfolio projects. To be used inside of the portfolio gallery card
     fields:
-      - name: data
-        type: object
+      - name: "data"
+        type: "object"
         data:
           source: "site.portfolio-pieces[0]"
-          type: portfolio-piece
+          type: "portfolio-piece"

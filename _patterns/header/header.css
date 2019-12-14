@@ -27,3 +27,7 @@
   border-bottom-width: medium;
   border-bottom-color: var(--color-secondary);
 }
+
+.name a {
+  color: var(--color-secondary-dark);
+}

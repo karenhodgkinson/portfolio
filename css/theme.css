@@ -28,6 +28,11 @@
   background-color: var(--color-primary-dark);
 }
 
+/* @utility Apply a brightly constrasting background to an element */
+.section-bright {
+  background-color: var(--color-secondary-dark);
+}
+
 h1 {
   font-family: var(--font-secondary);
   text-transform: uppercase;
@@ -40,7 +45,7 @@ h2, h3, h4, h5, h6 {
 }
 
 a {
-  color: var(--color-primary-light);
+  color: var(--color-darkest);
 }
 
 a:hover {

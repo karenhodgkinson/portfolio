@@ -27,7 +27,7 @@ patterns:
         example: "Short relevant statement that grabs attention!"
       - name: image
         type: string
-        example: "/images/portfolio/watch-s5.png"
+        example: "/images/portfolio/hero-banner.png"
       - name: text
         type: string
         example: "longer relevant statement that reinforces call-to-action"

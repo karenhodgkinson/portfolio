@@ -4,48 +4,19 @@ patterns:
     description: |
       The Project Gallery Card is used to display each portfolio piece. It includes a more detailed description of each portfolio piece, as well as a gallery of images.
     fields:
-      - name: data
+      - name: "data"
+        type: "object"
         data:
           source: "site.portfolio-pieces[0]"
-          type: portfolio-piece
-
-  portfolio-gallery:
-    width: 400
-    title: "Might not use"
-    description: |
-      The portolio gallery card is used on the gallery landing page to introduce each portfolio piece. It links to the portfolio viewer.
-    fields:
-      - name: data
-        data:
-          source: "site.portfolio-pieces[0]"
-          type: portfolio-piece
-
-  image-only:
-    width: 400
-    title: "Image only"
-    description: |
-    fields:
-      - name: data
-        data:
-          source: "site.portfolio-pieces[0]"
-          type: portfolio-piece
+          type: "portfolio-piece"
 
   image-button:
-    width: 400
-    title: "image with button"
+    title: "Image with button"
     description: |
+      The image-button card is used on the gallery landing page to introduce each portfolio piece. It links to the portfolio viewer.
     fields:
-      - name: data
+      - name: "data"
+        type: "object"
         data:
           source: "site.portfolio-pieces[0]"
-          type: portfolio-piece
-
-  image-info:
-    width: 400
-    title: "image with info"
-    description: |
-    fields:
-      - name: data
-        data:
-          source: "site.portfolio-pieces[0]"
-          type: portfolio-piece
+          type: "portfolio-piece"

@@ -6,13 +6,23 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="/css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Nunito:300,400,600,700|Raleway:400,500,600,700&display=swap" rel="stylesheet">
+  <link href="favicon.ico" rel="shortcut icon">
 </head>
 <body>
 
+  <ul class="skip-links">
+    <li>
+      <a href="#nav">Jump to navigation</a>
+    </li>
+    <li>
+      <a href="#main">Jump to main content</a>
+    </li>
+  </ul>
+
   {% pattern header/header %}
 
-    <main>
-      {{content}}
+    <main role="main" id="main" tabindex="0">
+      {{ content }}
     </main>
 
   {% pattern footer/footer %}

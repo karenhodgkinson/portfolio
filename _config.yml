@@ -29,6 +29,7 @@ collections:
 
 defaults:
   - scope:
+      type: portfolio-pieces
       path: _portfolio-pieces
     values:
       layout: default
