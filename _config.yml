@@ -23,7 +23,7 @@ patternbot:
       This is the most basic layout, to be used on all pages.
     gallery-layout: |
       This is the layout for the gallery page, only used on the gallery page.
-collections:
+collection:
   portfolio-pieces:
     output: true
 

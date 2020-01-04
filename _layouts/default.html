@@ -19,13 +19,62 @@
     </li>
   </ul>
 
-  {% pattern header/header %}
+  <header class="masthead header" role="banner">
+    <div class="grid gutter-1-2">
 
-    <main role="main" id="main" tabindex="0">
-      {{ content }}
-    </main>
+      <div class="unit xs-1 s-1 m-1-2 l-1-4 text-left gutter-1-2 pad-t">
+        <a class="name" href="/">Karen Hodgkinson</a>
+      </div>
 
-  {% pattern footer/footer %}
+      <div class="unit xs-1 s-1 m-1-2 l-3-4 text-right gutter-1-2 pad-t">
+
+        <nav class="nav" role="navigation" id="nav">
+          <ul class="list-group-inline">
+            <li class="island-1-8 {% if page.highlight_nav == 'gallery-gd' %}current{% endif %}">
+              <a class="island-1-8 gutter-1-2" href="/gallery/">Gallery</a>
+            </li>
+            <li class="island-1-8 {% if page.highlight_nav == 'about' %}current{% endif %}">
+              <a class="island-1-8 gutter-1-2" href="/about/">About</a>
+            </li>
+            <li class="island-1-8 {% if page.highlight_nav == 'contact' %}current{% endif %}">
+              <a class="island-1-8 gutter-1-2" href="/contact/">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+      </div>
+
+    </div>
+  </header>
+
+  <main role="main" id="main" tabindex="0">
+    {{ content }}
+  </main>
+
+  <footer role="contentinfo" class="island-1-2 micro" id="content-info" tabindex="0">
+
+    <div class="grid grid-middle">
+
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 footer-main text-left">
+        <ul class="list-group-inline push-none">
+          <li class="island-1-8">
+            <a class="island-1-8 gutter-1-2" href="about.html">About</a>
+          </li>
+          <li class="island-1-8">
+            <a class="island-1-8 gutter-1-2" href="/privacy/">Privacy</a>
+          </li>
+          <li class="island-1-8">
+            <a class="island-1-8 gutter-1-2" href="/contact/">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="unit xs-1 s-1 m-1-4 l-1-4 footer-secondary text-right">
+        <a class="island-1-8" href="#">Terms of Use</a>
+      </div>
+
+    </div>
+  </footer>
 
 </body>
 </html>
