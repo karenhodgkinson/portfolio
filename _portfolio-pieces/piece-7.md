@@ -1,7 +1,7 @@
 ---
 title: "Cycling Pathway Case Study"
-description: "City of Ottawa Cycling Case Study"
-details: "In collaboration with the City of Ottawa, a team consisting of myself and 3 fellow designers were tasked with reviewing current cycling pathway infrastructure in the City of Ottawa and proposing effective solutions to the design flaws we discovered. Together we conducted research and created a survey that we used to reach out to the citizens of Ottawa to gain insight into the current issues with Multi-Use Pathways. We designed solutions in the form of new signage and pavement markings, and presented our work to our City of Ottawa contacts. I have included here only the signage and pavement markings that I designed and created myself, as well as my own mockups that show the markings and signage in use. All images were created using Adobe Illustrator."
+description: "Design Research Case Study"
+details: "A team consisting of myself and 3 fellow designers were tasked with reviewing existing cycling pathway infrastructure and proposing effective solutions to the design flaws we discovered. Together we conducted research and created a survey that we used to reach out to the citizens of Ottawa to gain insight into the current issues with Multi-Use Pathways. We designed solutions in the form of new signage and pavement markings. I have included here only the signage and pavement markings that I designed and created myself, as well as my own mockups that show the markings and signage in use. All images were created using Adobe Illustrator."
 icons: "ai-icon"
 image1: "portfolio/7intro.png"
 image2: "portfolio/7a.png"

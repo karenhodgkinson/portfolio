@@ -9,9 +9,6 @@ patterns:
       A simple decorative banner to be used when it is not ideal to direct the user to a different page. The function is decoration and continuity throughout non-gallery pages.
 
     fields:
-      - name: 'heading'
-        type: 'string'
-        example: 'Short relevant statement that grabs attention'
       - name: 'image'
         type: 'string'
         example: '/images/banner.jpg'

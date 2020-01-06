@@ -4,9 +4,7 @@ highlight_nav: gallery
 title: Gallery
 ---
 
-{% pattern banners/basic %}
-
-
+{% pattern banners/basic image="/images/banner.jpg" %}
 
 <div class="grid wrapper">
 
@@ -17,6 +15,5 @@ title: Gallery
       {% pattern cards/image data=portfolio-piece %}
     </div>
   {% endfor %}
-
 
 </div>
