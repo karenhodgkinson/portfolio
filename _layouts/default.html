@@ -4,6 +4,8 @@
   <meta charset="utf-8">
   <title>Karen Hodgkinson</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Ottawa-based Graphic Designer and Artist.">
+  <meta property="og:description" content="Ottawa-based Graphic Designer and Artist.">
   <link href="/css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i,700|Nunito:300,400,600,700|Raleway:400,500,600,700&display=swap" rel="stylesheet">
   <link href="favicon.ico" rel="shortcut icon">
@@ -19,62 +21,15 @@
     </li>
   </ul>
 
-  <header class="masthead header" role="banner">
-    <div class="grid gutter-1-2">
-
-      <div class="unit xs-1 s-1 m-1-2 l-1-4 text-left gutter-1-2 pad-t">
-        <a class="name" href="/">Karen Hodgkinson</a>
-      </div>
-
-      <div class="unit xs-1 s-1 m-1-2 l-3-4 text-right gutter-1-2 pad-t">
-
-        <nav class="nav" role="navigation" id="nav">
-          <ul class="list-group-inline">
-            <li class="island-1-8 {% if page.highlight_nav == 'gallery-gd' %}current{% endif %}">
-              <a class="island-1-8 gutter-1-2" href="/gallery/">Gallery</a>
-            </li>
-            <li class="island-1-8 {% if page.highlight_nav == 'about' %}current{% endif %}">
-              <a class="island-1-8 gutter-1-2" href="/about/">About</a>
-            </li>
-            <li class="island-1-8 {% if page.highlight_nav == 'contact' %}current{% endif %}">
-              <a class="island-1-8 gutter-1-2" href="/contact/">Contact</a>
-            </li>
-          </ul>
-        </nav>
-
-      </div>
-
-    </div>
-  </header>
+{% pattern header/header %}
 
   <main role="main" id="main" tabindex="0">
-    {{ content }}
+    <div>
+      {{content}}
+    </div>
   </main>
 
-  <footer role="contentinfo" class="island-1-2 micro" id="content-info" tabindex="0">
-
-    <div class="grid grid-middle">
-
-      <div class="unit xs-1 s-1 m-1-2 l-1-2 footer-main text-left">
-        <ul class="list-group-inline push-none">
-          <li class="island-1-8">
-            <a class="island-1-8 gutter-1-2" href="about.html">About</a>
-          </li>
-          <li class="island-1-8">
-            <a class="island-1-8 gutter-1-2" href="/privacy/">Privacy</a>
-          </li>
-          <li class="island-1-8">
-            <a class="island-1-8 gutter-1-2" href="/contact/">Contact</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="unit xs-1 s-1 m-1-4 l-1-4 footer-secondary text-right">
-        <a class="island-1-8" href="#">Terms of Use</a>
-      </div>
-
-    </div>
-  </footer>
+{% pattern footer/footer %}
 
 </body>
 </html>

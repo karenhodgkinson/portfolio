@@ -7,6 +7,6 @@
   color: #fff;
 }
 
-.hero-text: {
-   background-color: #000;
+.hero-banner {
+  background-color: var(--color-primary-dark);
 }

@@ -1,0 +1,11 @@
+patterns:
+  project:
+    title: "Project"
+    description: |
+      The project section is used to display each portfolio piece. It includes more detailed information for each portfolio piece, as well as a series of images.
+    fields:
+      - name: "data"
+        type: "object"
+        data:
+          source: "site.portfolio-pieces[1]"
+          type: "portfolio-piece"

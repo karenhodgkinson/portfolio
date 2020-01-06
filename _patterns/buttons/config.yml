@@ -6,22 +6,22 @@ patterns:
     title: "Basic button"
     description: |
       The basic button is to be used most of the time.
-
     fields:
-      - name: text
-        type: string
-        example: "View Projects"
-      - name: url
-        type: string
-        example: "/design-projects/"
+      - name: 'text'
+        type: 'string'
+        example: 'View Projects'
+      - name: 'url'
+        type: 'string'
+        example: '/design-projects/'
 
   ghost:
     title: "Ghost button"
     description: |
       The ghost button is to be used only when aesthetically necessary, such as for banners or for over images.
     fields:
-      - name: "data"
-        type: "object"
-        data:
-          source: "site.portfolio-pieces[0]"
-          type: "portfolio-piece"
+      - name: 'text'
+        type: 'string'
+        example: 'View Projects'
+      - name: 'url'
+        type: 'string'
+        example: '/design-projects/'

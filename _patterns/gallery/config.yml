@@ -8,11 +8,11 @@ patterns:
     description: |
       This gallery is used to display multiple images for the same project piece. To be used inside of the project gallery card.
     fields:
-      - name: "data"
-        type: "object"
+      - name: data
+        type: object
         data:
-          source: "site.portfolio-pieces[0]"
-          type: "portfolio-piece"
+          source: "site.portfolio-pieces[1]"
+          type: portfolio-piece
 
   portfolio:
     title: "Portfolio Gallery"
@@ -24,3 +24,14 @@ patterns:
         data:
           source: "site.portfolio-pieces[0]"
           type: "portfolio-piece"
+
+  icon-array:
+    title: "Icon Array"
+    description: |
+      Icon array is used to show all of the icons for the tools used to create each project. This array is used in the image card on the gallery page as well as in the project section on each portfolio-piece page.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.portfolio-pieces[1]"
+          type: portfolio-piece

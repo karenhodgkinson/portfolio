@@ -30,4 +30,5 @@
 
 .name a {
   color: var(--color-secondary-dark);
+  text-decoration: none;
 }

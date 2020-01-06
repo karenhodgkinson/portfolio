@@ -1,16 +1,13 @@
 ---
-name: Campaign Branding
-description: A series of advertisements created as part of a fictional branding campaign for a local building company
-tools:
-  - Adobe Photoshop
-  - Adobe Illustrator
-  - Adobe InDesign
-year: 2017
-area:
-  - Design & layout
-  - Illustration
+title: "Isometric Illustration"
+description: "Isometric Illustration"
+details: "This isometric illustration depicts a mountaineering scene, created entirely in Adobe Illustrator. Each object is shown in three dimensions and drawn at full scale (without foreshortening)."
+icons: "ai-icon"
+image1: "portfolio/2intro.png"
+image2: "portfolio/2a.png"
+image3: "portfolio/2b.png"
+image4: "portfolio/2c.png"
+image5: "portfolio/2d.png"
+year: "2017"
+types: "Illustration"
 ---
-
-![Campaign Branding](/images/portfolio-files/8intro.png)
-
-This advertising campaign includes several print advertisements, a facebook timeline image, two web banners, and a bus advertisement.

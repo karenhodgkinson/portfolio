@@ -21,15 +21,14 @@ patternbot:
   layouts:
     default: |
       This is the most basic layout, to be used on all pages.
-    gallery-layout: |
+    portfolio-pieces: |
       This is the layout for the gallery page, only used on the gallery page.
-collection:
+collections:
   portfolio-pieces:
     output: true
 
 defaults:
   - scope:
-      type: portfolio-pieces
       path: _portfolio-pieces
     values:
-      layout: default
+      layout: portfolio-pieces

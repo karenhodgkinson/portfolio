@@ -10,7 +10,7 @@
 --font-primary: Lato, sans-serif;
 --font-secondary: Raleway, sans-serif;
 
---border-radius: 20px;
+--border-radius: 5px;
 }
 
 /* @utility Apply the secondary typeface */
@@ -31,6 +31,10 @@
 /* @utility Apply a brightly constrasting background to an element */
 .section-bright {
   background-color: var(--color-secondary-dark);
+}
+
+html {
+  font-family: var(--font-primary);
 }
 
 h1 {

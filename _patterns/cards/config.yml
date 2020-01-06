@@ -7,16 +7,29 @@ patterns:
       - name: "data"
         type: "object"
         data:
-          source: "site.portfolio-pieces[0]"
+          source: "site.portfolio-pieces[1]"
           type: "portfolio-piece"
 
-  image-button:
-    title: "Image with button"
+  image:
+    title: "Image Card"
     description: |
-      The image-button card is used on the gallery landing page to introduce each portfolio piece. It links to the portfolio viewer.
+      The image card is used on the gallery landing page to introduce each portfolio piece. It links to the portfolio viewer.
+    width: 400px
     fields:
-      - name: "data"
-        type: "object"
+      - name: data
+        type: object
         data:
-          source: "site.portfolio-pieces[0]"
-          type: "portfolio-piece"
+          source: "site.portfolio-pieces[1]"
+          type: portfolio-piece
+
+  info:
+    title: "Information Card"
+    description: |
+      The information card is used for displaying a section of text without any accompanying images.
+    fields:
+      - name: text
+        type: string
+        example: "View Projects"
+      - name: url
+        type: string
+        example: "/design-projects/"
