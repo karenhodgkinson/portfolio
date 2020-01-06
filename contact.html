@@ -10,14 +10,24 @@ title: Contact
 
   <h1 class="unit xs-1 s-1 m-1 l-1 gutter pad-t push-0">{{page.title}}</h1>
   <div class="unit xs-1 s-1 m-1 l-1 gutter pad-t push-0">
-    <a class="" href="https://www.instagram.com/karhodgk/">
-      <ul class="list-group">
-      <li>
-        <i class="icon i-1">
-          <svg><use xlink:href="/images/icons.svg#ai-icon"></use></svg>
-        </i>
-      </li>
-    </ul>
-    </a>
+    <h2>Send me an email</h2>
+    <div class="contact-form">
+      <form action="" method="POST">
+        {% pattern forms/text-line label="Text" placeholder="Your name." error="This is a required field." %}
+        {% pattern forms/email placeholder="email@email.com" error="Please enter your email address." %}
+        {% pattern forms/text-para label="Comments" placeholder="Please type your comment, question, or request here." %}
+        {% pattern forms/submit text="Send" %}
+      </form>
+    </div>
   </div>
+
+  <div class="unit xs-1 s-1 m-1 l-1 gutter pad-t push">
+    <h2>Connect with me</h2>
+    <div>
+      <a class="" href="https://www.instagram.com/karhodgk/">
+        <img class="icon i-2" src="/images/social-icon.svg">
+      </a>
+    </div>
+  </div>
+
 </div>

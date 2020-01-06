@@ -1,0 +1,54 @@
+title: "Forms"
+description: |
+  Forms are only used on the contact page, and only to send an email.
+patterns:
+  text-line:
+    title: "Text"
+    description: |
+      Text-line fields are to be used for short text entries, in this case for the sender's name.
+    fields:
+      - name: label
+        type: string
+        example: "Your Full Name"
+      - name: placeholder
+        type: string
+        example: "Please enter your name."
+      - name: error
+        type: string
+        example: "This is a required field."
+  email:
+    title: "Email"
+    description: |
+      This is to be used for email addresses only.
+    fields:
+      - name: label
+        type: string
+        example: "Your Email Address"
+      - name: placeholder
+        type: string
+        example: "email@email.com"
+      - name: error
+        type: string
+        example: "Please enter your email address."
+  text-para:
+    title: "Paragraph"
+    description: |
+      This is for the email body.
+    fields:
+      - name: label
+        type: string
+        example: "Comments"
+      - name: placeholder
+        type: string
+        example: "Please type your comment, question, or request here."
+      - name: error
+        type: string
+        example: "This is a required field."
+  submit:
+    title: "Submit"
+    description: |
+      This button is used to submit the email.
+    fields:
+      - name: text
+        type: string
+        example: "Send"
