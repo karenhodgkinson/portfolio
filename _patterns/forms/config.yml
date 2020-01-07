@@ -2,7 +2,7 @@ title: "Forms"
 description: |
   Forms are only used on the contact page, and only to send an email.
 patterns:
-  text-line:
+  text:
     title: "Text"
     description: |
       Text-line fields are to be used for short text entries, in this case for the sender's name.
@@ -30,7 +30,7 @@ patterns:
       - name: error
         type: string
         example: "Please enter your email address."
-  text-para:
+  para:
     title: "Paragraph"
     description: |
       This is for the email body.
