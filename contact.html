@@ -12,11 +12,12 @@ title: Contact
   <div class="unit xs-1 s-1 m-1 l-1 gutter pad-t push-0">
     <h2>Send me an email</h2>
     <div class="myemailform">
-      <form name="myemailform" action="https://formspree.io/mdoaqdge" method="POST">
-        {% pattern forms/text label="Text" placeholder="Your name." error="This is a required field." %}
-        {% pattern forms/email placeholder="email@email.com" error="Please enter your email address." %}
-        {% pattern forms/para label="Comments" placeholder="Please type your comment, question, or request here." %}
-        {% pattern forms/submit text="Send" %}
+      <form class="push-0" method="POST" action="https://formspree.io/kar.hodgk@gmail.com">
+{% pattern forms/name label="Your Full Name" placeholder="Please enter your name" error="This is a required field." %}
+{% pattern forms/email label="Your Email Address" placeholder="email@email.com" error="Please enter your email address." %}
+{% pattern forms/details label="Comments" placeholder="Please type your comment, question, or request here." error="This is a required field." %}
+{% pattern forms/submit text="Send" %}
+
       </form>
     </div>
   </div>

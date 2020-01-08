@@ -2,8 +2,8 @@ title: "Forms"
 description: |
   Forms are only used on the contact page, and only to send an email.
 patterns:
-  text:
-    title: "Text"
+  name:
+    title: "Name Field"
     description: |
       Text-line fields are to be used for short text entries, in this case for the sender's name.
     fields:
@@ -12,12 +12,12 @@ patterns:
         example: "Your Full Name"
       - name: placeholder
         type: string
-        example: "Please enter your name."
+        example: "Please enter your name"
       - name: error
         type: string
         example: "This is a required field."
   email:
-    title: "Email"
+    title: "Email Address Field"
     description: |
       This is to be used for email addresses only.
     fields:
@@ -30,8 +30,8 @@ patterns:
       - name: error
         type: string
         example: "Please enter your email address."
-  para:
-    title: "Paragraph"
+  details:
+    title: "Email Details Field"
     description: |
       This is for the email body.
     fields:
@@ -45,7 +45,7 @@ patterns:
         type: string
         example: "This is a required field."
   submit:
-    title: "Submit"
+    title: "Submit Button"
     description: |
       This button is used to submit the email.
     fields:
